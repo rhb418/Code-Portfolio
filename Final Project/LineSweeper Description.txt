@@ -1,0 +1,5 @@
+This Java project represents the implementation of a custom game called linesweeper. This implementation
+uses a variety of JavaFX objects to create an interactive two player game with a start page describing the 
+rules and allowing the players to select one of three difficulties. The players can then launch the game and play 
+until completion. Following the end of the game the players can then load a final page to calculate the score and
+determine the winner.
