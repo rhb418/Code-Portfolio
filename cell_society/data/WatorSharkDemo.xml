@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+<grid>
+  <id>WatorShark</id>
+  <game>Wator</game>
+  <title>Wator With Many Sharks</title>
+  <author>Cell Society Team 5</author>
+  <description>This configuration shows a Wator simulation where there are many sharks compared to fish.  This causes fish to disappear more often at the start, but also potentially cause sharks to die out as a result.</description>
+  <watorParameter>3</watorParameter>
+  <watorParameter>3</watorParameter>
+  <watorParameter>5</watorParameter>
+  <height>10</height>
+  <width>10</width>
+  <entry>5555555655</entry>
+  <entry>5556552565</entry>
+  <entry>5566555555</entry>
+  <entry>5555555555</entry>
+  <entry>5555255555</entry>
+  <entry>5665555655</entry>
+  <entry>5555555555</entry>
+  <entry>5556555555</entry>
+  <entry>5552255655</entry>
+  <entry>5656655555</entry>
+</grid>
+</class>

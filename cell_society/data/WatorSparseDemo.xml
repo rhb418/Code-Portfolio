@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+<grid>
+  <id>WatorSparse</id>
+  <game>Wator</game>
+  <title>Wator With Few Animals</title>
+  <author>Cell Society Team 5</author>
+  <description>This configuration shows a Wator simulation where there is only one shark and one fish.  This simulates a deprived environment, so the sharks can last without eating a fish for 20 evolutions, gains 10 energy per fish eaten, but it also does not reproduce until 18 evolutions.</description>
+  <watorParameter>20</watorParameter>
+  <watorParameter>10</watorParameter>
+  <watorParameter>18</watorParameter>
+  <height>10</height>
+  <width>10</width>
+  <entry>5555555555</entry>
+  <entry>5555555525</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>5655555555</entry>
+  <entry>5555555555</entry>
+</grid>
+</class>

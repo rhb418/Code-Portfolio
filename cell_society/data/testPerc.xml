@@ -1,0 +1,17 @@
+<?xml version = "1.0"?>
+<class>
+    <grid>
+        <id>PercolationTest</id>
+        <game>Percolation</game>
+        <height>8</height>
+        <width>8</width>
+        <entry>10110010</entry>
+        <entry>11011011</entry>
+        <entry>00001100</entry>
+        <entry>11110011</entry>
+        <entry>20110110</entry>
+        <entry>00010011</entry>
+        <entry>01110001</entry>
+        <entry>11000111</entry>
+    </grid>
+</class>

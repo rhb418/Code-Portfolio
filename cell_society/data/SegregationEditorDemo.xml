@@ -1,0 +1,29 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>SegregationEditor</id>
+    <game>Segregation</game>
+    <title>Segregation Editor</title>
+    <author>Cell Society Team 5</author>
+    <description>This configuration shows a Segregation grid for users to create their own layout. Click on a cell to cycle through its states (Blue = Blue, Red = Red, White = Open). First pause the simulation, change cells to the desired values, save the configuration, then reload the configuration.  Now you can reset the simulation any time.</description>
+    <height>15</height>
+    <width>15</width>
+    <entry>211111789111112</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+
+
+  </grid>
+</class>

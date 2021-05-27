@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>PercolationWide</id>
+      <game>Percolation</game>
+      <title>Wide Percolation Grid</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a percolation grid that is a non-square grid and has multiple starting percolation locations.</description>
+      <height>8</height>
+      <width>16</width>
+      <entry>0101100100012110</entry>
+      <entry>1010101011100101</entry>
+      <entry>1100011000101110</entry>
+      <entry>0111011001001011</entry>
+      <entry>1100000101000101</entry>
+      <entry>1011000100101011</entry>
+      <entry>0110100111010011</entry>
+      <entry>1010010201000101</entry>
+   </grid>
+</class>

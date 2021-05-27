@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>IncorrectFile</id>
+      <description>This configuration shows a file that does not have all of the correct inputs (this includes all non-XML files). This creates a 'dummy' GOL game with random cell values in its place. The user can then choose another simulation from a different file to continue using the program.</description>
+   </grid>
+</class>

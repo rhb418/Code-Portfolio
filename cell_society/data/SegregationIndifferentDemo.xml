@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>SegregationIndifferent</id>
+      <game>Segregation</game>
+      <title>Segregation Indifferent Cells</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a segregation simulation where each cell needs at least one neighbor of the same color to be satisfied.</description>
+      <percent>0.1</percent>
+      <height>10</height>
+      <width>10</width>
+      <entry>3312132332</entry>
+      <entry>1123133231</entry>
+      <entry>1323323112</entry>
+      <entry>3232121112</entry>
+      <entry>3321321122</entry>
+      <entry>3321112131</entry>
+      <entry>3323211122</entry>
+      <entry>3122232123</entry>
+      <entry>3122332333</entry>
+      <entry>3332112112</entry>
+   </grid>
+</class>

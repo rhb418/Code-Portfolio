@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>GOLPinwheel</id>
+      <game>GOL</game>
+      <title>Pinwheel Oscillator</title>
+      <author>Simon Norton</author>
+      <description>This configuration shows an oscillator discovered by Simon Norton in 1970.</description>
+      <height>14</height>
+      <width>14</width>
+      <entry>00000000000000</entry>
+      <entry>00000001100000</entry>
+      <entry>00000001100000</entry>
+      <entry>00000000000000</entry>
+      <entry>00000111100000</entry>
+      <entry>01101000010000</entry>
+      <entry>01101100010000</entry>
+      <entry>00001001010110</entry>
+      <entry>00001010010110</entry>
+      <entry>00000111100000</entry>
+      <entry>00000000000000</entry>
+      <entry>00000110000000</entry>
+      <entry>00000110000000</entry>
+      <entry>00000000000000</entry>
+   </grid>
+</class>

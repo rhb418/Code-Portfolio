@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<class>
+<grid>
+  <id>WatorTest</id>
+  <game>Wator</game>
+  <height>10</height>
+  <width>10</width>
+  <watorParameter>5</watorParameter>
+  <watorParameter>2</watorParameter>
+  <watorParameter>7</watorParameter>
+  <entry>5555655555</entry>
+  <entry>5555552555</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>6555255552</entry>
+  <entry>5555555555</entry>
+  <entry>5555555555</entry>
+  <entry>5556555555</entry>
+  <entry>5552255555</entry>
+  <entry>5552555555</entry>
+</grid>
+</class>

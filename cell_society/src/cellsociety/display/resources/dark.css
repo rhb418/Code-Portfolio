@@ -1,0 +1,6 @@
+.root {
+  -fx-font-size: 12pt;
+  -fx-font-family: "Times New Roman";
+  -fx-base: rgb(85, 116, 222);
+  -fx-background: rgb(92, 73, 145);
+}

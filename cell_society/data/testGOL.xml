@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>GOLTest</id>
+      <game>GOL</game>
+      <height>6</height>
+      <width>6</width>
+      <entry>000000</entry>
+      <entry>000000</entry>
+      <entry>001100</entry>
+      <entry>001100</entry>
+      <entry>000000</entry>
+      <entry>000000</entry>
+   </grid>
+</class>

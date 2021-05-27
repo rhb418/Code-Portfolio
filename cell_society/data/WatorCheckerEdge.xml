@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+<grid>
+  <id>WatorChecker</id>
+  <game>Wator</game>
+  <title>Wator Checkerboard</title>
+  <author>Cell Society Team 5</author>
+  <description>This configuration shows a Wator simulation where there are as many sharks as fish, and each shark is next to a fish.  This causes the fish to die quickly and the sharks follow suit afterwards, regardless of the base life of the shark.</description>
+  <watorParameter>2</watorParameter>
+  <watorParameter>3</watorParameter>
+  <watorParameter>5</watorParameter>
+  <height>10</height>
+  <width>10</width>
+  <entry>2626262626</entry>
+  <entry>6262626262</entry>
+  <entry>2626262626</entry>
+  <entry>6262626262</entry>
+  <entry>2626262626</entry>
+  <entry>6262626262</entry>
+  <entry>2626262626</entry>
+  <entry>6262626262</entry>
+  <entry>2626262626</entry>
+  <entry>6262626262</entry>
+</grid>
+</class>

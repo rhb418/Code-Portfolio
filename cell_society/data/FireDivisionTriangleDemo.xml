@@ -1,0 +1,26 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>FireDivision</id>
+      <game>Fire</game>
+      <title>Fire Divided Trees</title>
+      <author>Cell Society Team 5</author>
+      <description>(THIS SIMULATION SHOULD BE RUN WITH TRIANGLE GRID) This configuration shows a Fire simulation where the trees are meticulously placed with divisions to prevent fire from spreading. This needs more horizontal space between trees to prevent spreading between rings due to the Triangle grid shape. Trees have a 50% change to catch fire.</description>
+      <probCatch>0.5</probCatch>
+      <height>13</height>
+      <width>17</width>
+      <entry>44444444444444444</entry>
+      <entry>43555555555555554</entry>
+      <entry>45444444444444454</entry>
+      <entry>45443555555554454</entry>
+      <entry>45445444444454454</entry>
+      <entry>45445445554454454</entry>
+      <entry>45445445354454454</entry>
+      <entry>45445445554454454</entry>
+      <entry>45445444444454454</entry>
+      <entry>45445555555554454</entry>
+      <entry>45444444444444454</entry>
+      <entry>45555555555555554</entry>
+      <entry>44444444444444444</entry>
+   </grid>
+</class>

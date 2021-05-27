@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>RPSLSCycle</id>
+    <game>RPSLS</game>
+    <title>RPSLS Cycle</title>
+    <author>Cell Society Team 5</author>
+    <description>This configuration shows an RPSLS grid that orients RPSLS actions placed around the center such that they lose on one side and win on the other, causing a cyclic motion. Rock beats Lizard beats Spock beats Scissors beats Paper (Grey, Green, Red, Yellow, White)</description>
+    <height>10</height>
+    <width>10</width>
+    <entry>6666555533</entry>
+    <entry>6666555533</entry>
+    <entry>6665555333</entry>
+    <entry>6665555333</entry>
+    <entry>6665533333</entry>
+    <entry>1166554433</entry>
+    <entry>1111144444</entry>
+    <entry>1111144444</entry>
+    <entry>1111144444</entry>
+    <entry>1111144444</entry>
+  </grid>
+</class>

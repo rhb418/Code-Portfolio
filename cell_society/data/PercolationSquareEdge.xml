@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>PercolationSquare</id>
+      <game>Percolation</game>
+      <title>Edge Square Percolation</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a simulation that percolates along the edge of the grid.</description>
+      <height>8</height>
+      <width>8</width>
+      <entry>11111111</entry>
+      <entry>11000011</entry>
+      <entry>10111101</entry>
+      <entry>10100101</entry>
+      <entry>10100101</entry>
+      <entry>10111101</entry>
+      <entry>11000011</entry>
+      <entry>21111111</entry>
+   </grid>
+</class>

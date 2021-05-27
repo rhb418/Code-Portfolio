@@ -1,0 +1,6 @@
+.root {
+  -fx-font-size: 12pt;
+  -fx-font-family: "Futura";
+  -fx-base: rgb(235, 204, 24);
+  -fx-background: rgb(235, 120, 24);
+}

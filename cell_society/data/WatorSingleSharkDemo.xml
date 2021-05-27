@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+<grid>
+  <id>WatorSingle</id>
+  <game>Wator</game>
+  <title>Wator With One Shark</title>
+  <author>Cell Society Team 5</author>
+  <description>This configuration shows a Wator simulation where there are many fish compared to a single shark.  This can cause the sharks to reproduce consistently, but also potentially grow to numbers too great for the fish to sustain the shark population.</description>
+  <watorParameter>3</watorParameter>
+  <watorParameter>3</watorParameter>
+  <watorParameter>5</watorParameter>
+  <height>10</height>
+  <width>10</width>
+  <entry>5555222555</entry>
+  <entry>5255222255</entry>
+  <entry>5255655255</entry>
+  <entry>5225522555</entry>
+  <entry>5555255555</entry>
+  <entry>5252255525</entry>
+  <entry>5555225555</entry>
+  <entry>5525252225</entry>
+  <entry>5225555255</entry>
+  <entry>5552555255</entry>
+</grid>
+</class>

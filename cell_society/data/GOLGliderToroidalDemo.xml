@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>GOLGlider</id>
+      <game>GOL</game>
+      <title>Glider Structures in Game of Life</title>
+      <author>Richard K. Guy</author>
+      <description>(THIS SIMULATION SHOULD BE RUN WITH THE TOROIDAL OPTION) This configuration shows a simple glider that moves forever, since the glider does not break on the edges of the simulation, as opposed to the finite grid.</description>
+      <height>15</height>
+      <width>15</width>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000011100</entry>
+      <entry>000000000010000</entry>
+      <entry>000000000001000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+   </grid>
+</class>

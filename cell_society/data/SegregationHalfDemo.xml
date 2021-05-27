@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>SegregationHalf</id>
+      <game>Segregation</game>
+      <title>Segregation Half Similar</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a segregation simulation where each cell needs 50% of its neighbors to have the same color to be satisfied.</description>
+      <percent>0.5</percent>
+      <height>10</height>
+      <width>10</width>
+      <entry>2111111113</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+      <entry>1111111111</entry>
+   </grid>
+</class>

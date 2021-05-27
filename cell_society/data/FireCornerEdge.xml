@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>FireCorner</id>
+      <game>Fire</game>
+      <title>Fire Corner Edge Case</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a Fire simulation where two sections of trees are divided by a diagonally extending strip of open land.  The trees have a 100% chance to burn, so the game shows that burns do not spread diagonally.</description>
+      <probCatch>1.0</probCatch>
+      <height>12</height>
+      <width>12</width>
+      <entry>455555555555</entry>
+      <entry>545555555555</entry>
+      <entry>554555555555</entry>
+      <entry>555455555555</entry>
+      <entry>555545555555</entry>
+      <entry>555554555555</entry>
+      <entry>555555455555</entry>
+      <entry>555555545555</entry>
+      <entry>555555554555</entry>
+      <entry>555555555455</entry>
+      <entry>555555555545</entry>
+      <entry>355555555554</entry>
+   </grid>
+</class>

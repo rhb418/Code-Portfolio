@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>SegregationChecker</id>
+      <game>Segregation</game>
+      <title>Segregation Checkboard Edge Case</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a Segregation simulation that has as many open as colored cells and as many of one color cell as the other.  The grid starts as a checkerboard and randomly changes as expected.</description>
+      <percent>0.3</percent>
+      <height>8</height>
+      <width>8</width>
+      <entry>21212121</entry>
+      <entry>13131313</entry>
+      <entry>21212121</entry>
+      <entry>13131313</entry>
+      <entry>21212121</entry>
+      <entry>13131313</entry>
+      <entry>21212121</entry>
+      <entry>13131313</entry>
+   </grid>
+</class>

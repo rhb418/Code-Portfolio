@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>GOLStable</id>
+      <game>GOL</game>
+      <title>Stable Structures in Game of Life</title>
+      <author>John Conway</author>
+      <description>This configuration shows a few orientations that are completely stable or evolve to stable states.</description>
+      <height>15</height>
+      <width>15</width>
+      <entry>000000000000000</entry>
+      <entry>011000000000000</entry>
+      <entry>011000000001110</entry>
+      <entry>000000000001000</entry>
+      <entry>011000000000000</entry>
+      <entry>010100000000000</entry>
+      <entry>001000110000000</entry>
+      <entry>000001001000000</entry>
+      <entry>000001010000000</entry>
+      <entry>000000100000000</entry>
+      <entry>001000000000000</entry>
+      <entry>001000000001000</entry>
+      <entry>001000000110000</entry>
+      <entry>001000000010000</entry>
+      <entry>000000000000000</entry>
+   </grid>
+</class>

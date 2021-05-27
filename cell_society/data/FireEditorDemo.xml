@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>FireWet</id>
+      <game>Fire</game>
+      <title>Fire Wet Trees</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a Sugar grid for users to create their own layout. Click on a cell to cycle through its states (Yellow = Open, Green = Tree, Red = Fire). The Catch Probability is 0.5 (50%) by default. First pause the simulation, change cells to the desired values, save the configuration, then reload the configuration.  Now you can reset the simulation any time.</description>
+      <probCatch>0.5</probCatch>
+      <height>12</height>
+      <width>12</width>
+      <entry>344444444445</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+      <entry>444444444444</entry>
+   </grid>
+</class>

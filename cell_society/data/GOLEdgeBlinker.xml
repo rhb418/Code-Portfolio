@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>GOLEdgeBlink</id>
+      <game>GOL</game>
+      <title>Blinker Edge Test</title>
+      <author>John Conway</author>
+      <description>This configuration shows simple blinker oscillators at the edges of the grid.  Since there are no cells outside the grid, these blinkers no longer oscillate properly.</description>
+      <height>15</height>
+      <width>15</width>
+      <entry>011100111001110</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>100000000000001</entry>
+      <entry>100000000000001</entry>
+      <entry>100000000000001</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>100000000000001</entry>
+      <entry>100000000000001</entry>
+      <entry>100000000000001</entry>
+      <entry>000000000000000</entry>
+      <entry>000000000000000</entry>
+      <entry>011100111001110</entry>
+   </grid>
+</class>

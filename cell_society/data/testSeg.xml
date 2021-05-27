@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>SegregationTest</id>
+    <game>Segregation</game>
+    <height>10</height>
+    <width>10</width>
+    <percent>0.5</percent>
+    <entry>3232323132</entry>
+    <entry>2322223213</entry>
+    <entry>3323323332</entry>
+    <entry>3123223322</entry>
+    <entry>3223332333</entry>
+    <entry>3332322312</entry>
+    <entry>3223321322</entry>
+    <entry>3222323233</entry>
+    <entry>2223221223</entry>
+    <entry>3321232222</entry>
+  </grid>
+</class>

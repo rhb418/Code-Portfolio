@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>RPSLSSequence</id>
+    <game>RPSLS</game>
+    <title>RPSLS Stripes</title>
+    <author>Cell Society Team 5</author>
+    <description>This configuration shows an RPSLS grid that orients RPSLS actions in diagonal stripes such that they no interactions occur with neighbors in square or hexagon grids. This occurs because there is no clear winner for the next evolution, and the Triangle grid has different neighbors.</description>
+    <height>10</height>
+    <width>10</width>
+    <entry>1435614356</entry>
+    <entry>6143561435</entry>
+    <entry>5614356143</entry>
+    <entry>3561435614</entry>
+    <entry>4356143561</entry>
+    <entry>1435614356</entry>
+    <entry>6143561435</entry>
+    <entry>5614356143</entry>
+    <entry>3561435614</entry>
+    <entry>4356143561</entry>
+  </grid>
+</class>

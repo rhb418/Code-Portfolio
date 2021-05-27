@@ -1,0 +1,22 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>RPSLSSequence</id>
+    <game>RPSLS</game>
+    <title>RPSLS Stripes</title>
+    <author>Cell Society Team 5</author>
+    <description>This configuration shows an RPSLS grid that orients RPSLS actions in stripes such that they lose on one side and win on the other (the stripe moves), except the sole winner at the end. Rock beats Lizard beats Spock beats Scissors beats Paper (Grey, Green, Red, Yellow, White)</description>
+    <height>10</height>
+    <width>10</width>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+    <entry>1144335566</entry>
+  </grid>
+</class>

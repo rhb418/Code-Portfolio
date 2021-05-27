@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>SegregationPicky</id>
+      <game>Segregation</game>
+      <title>Segregation Picky Cells</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a segregation simulation where each cell needs 75% of its neighbors to have the same color to be satisfied.  This makes it hard for cells to stay in the same place.</description>
+      <percent>0.75</percent>
+      <height>10</height>
+      <width>10</width>
+      <entry>2232313232</entry>
+      <entry>3332232321</entry>
+      <entry>2231223323</entry>
+      <entry>2132323213</entry>
+      <entry>2122323322</entry>
+      <entry>3231323212</entry>
+      <entry>3332312223</entry>
+      <entry>3333212223</entry>
+      <entry>2223233212</entry>
+      <entry>2312333322</entry>
+   </grid>
+</class>

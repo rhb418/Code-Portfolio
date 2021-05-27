@@ -1,0 +1,29 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>GOLEdgeBlock</id>
+      <game>GOL</game>
+      <title>Blinker Edge Blocks</title>
+      <author>John Conway</author>
+      <description>This configuration shows simple stable blocks at the edges of the grid.  The structure is self-stable, so the edge does not break the block.</description>
+      <height>16</height>
+      <width>16</width>
+      <entry>0011000110001100</entry>
+      <entry>0011000110001100</entry>
+      <entry>0000000000000000</entry>
+      <entry>0000000000000000</entry>
+      <entry>1100000000000011</entry>
+      <entry>1100000000000011</entry>
+      <entry>0000000000000000</entry>
+      <entry>0000000000000000</entry>
+      <entry>0000000000000000</entry>
+      <entry>0000000000000000</entry>
+      <entry>1100000000000011</entry>
+      <entry>1100000000000011</entry>
+      <entry>0000000000000000</entry>
+      <entry>0000000000000000</entry>
+      <entry>1100110000110011</entry>
+      <entry>1100110000110011</entry>
+
+   </grid>
+</class>

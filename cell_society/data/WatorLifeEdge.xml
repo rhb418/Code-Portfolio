@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+<grid>
+  <id>WatorChecker</id>
+  <game>Wator</game>
+  <title>Wator Checkerboard</title>
+  <author>Cell Society Team 5</author>
+  <description>This configuration shows a Wator simulation where there are a few sharks and a single fish, but they essentially never reproduce, are given 20 evolutions to get the fish, and when they eat the fish, the shark essentially never dies.</description>
+  <watorParameter>20</watorParameter>
+  <watorParameter>1000000</watorParameter>
+  <watorParameter>1000021</watorParameter>
+  <height>10</height>
+  <width>10</width>
+  <entry>5555555555</entry>
+  <entry>5555555565</entry>
+  <entry>5565555555</entry>
+  <entry>5555555555</entry>
+  <entry>5555525555</entry>
+  <entry>5555555555</entry>
+  <entry>5655555565</entry>
+  <entry>5555555555</entry>
+  <entry>5555565555</entry>
+  <entry>6555555555</entry>
+</grid>
+</class>

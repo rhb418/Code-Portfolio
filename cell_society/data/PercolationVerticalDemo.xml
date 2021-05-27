@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>PercolationVertical</id>
+      <game>Percolation</game>
+      <title>Vertical Percolation</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a simulation that percolates to the vertical edges, but not the horizontal edges.</description>
+      <height>8</height>
+      <width>8</width>
+      <entry>10102001</entry>
+      <entry>00011010</entry>
+      <entry>01001011</entry>
+      <entry>00111001</entry>
+      <entry>10001100</entry>
+      <entry>00111110</entry>
+      <entry>01001100</entry>
+      <entry>00010100</entry>
+   </grid>
+</class>

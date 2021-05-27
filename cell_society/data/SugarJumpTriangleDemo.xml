@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>SugarJump</id>
+    <game>Sugar</game>
+    <title>Sugar Jump Demo</title>
+    <author>Cell Society Team 5</author>
+    <description>(THIS SIMULATION SHOULD BE RUN WITH TRIANGLE GRID) This configuration shows a Sugar simulation that shows the ability of Agents to move multiple spaces to the cell with the highest amount of sugar, ignoring closer cells with larger amounts of sugar.  They can move to any of their neighbors, but not jump to the same locations as in the square jump demo.</description>
+    <height>15</height>
+    <width>15</width>
+    <entry>219191919191919</entry>
+    <entry>717171717171717</entry>
+    <entry>111111111111119</entry>
+    <entry>111111111111111</entry>
+    <entry>919191919191919</entry>
+    <entry>111111111111111</entry>
+    <entry>911111111111111</entry>
+    <entry>191919191919191</entry>
+    <entry>111111111111119</entry>
+    <entry>111111111111111</entry>
+    <entry>919191919191919</entry>
+    <entry>111111111111111</entry>
+    <entry>911111111111111</entry>
+    <entry>717171717171717</entry>
+    <entry>919191919191912</entry>
+  </grid>
+</class>

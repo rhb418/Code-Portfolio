@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>SegregationBlind</id>
+      <game>Segregation</game>
+      <title>Segregation Blind Search Edge Case</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a segregation simulation where there are two cells of a single color searching for a single neighbor.  This simulates as if both people were blindfolded and tried to find each other without any sense except bumping into the other person.</description>
+      <percent>0.1</percent>
+      <height>12</height>
+      <width>12</width>
+      <entry>111111111112</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>111111111111</entry>
+      <entry>211111111111</entry>
+   </grid>
+</class>

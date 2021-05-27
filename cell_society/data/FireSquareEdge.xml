@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>FireSquare</id>
+      <game>Fire</game>
+      <title>Fire Square Ring Edge Case</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a Fire simulation where the trees are in a single ring at the edge of the screen.  The trees have a 75% chance to burn, so the ring most likely will not burn completely, showing there is nothing outside the grid.</description>
+      <probCatch>0.75</probCatch>
+      <height>12</height>
+      <width>12</width>
+      <entry>355555555555</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>544444444445</entry>
+      <entry>555555555555</entry>
+   </grid>
+</class>

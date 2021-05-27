@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>PercolationEditor</id>
+      <game>Percolation</game>
+      <title>Percolation Editor</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows an empty Percolation grid for users to create their own layout. Click on a cell to cycle through its states (White = Open, Black = Blocked, Blue = Percolated). First pause the simulation, change cells to the desired values, save the configuration, then reload the configuration.  Now you can reset the simulation any time.</description>
+      <height>11</height>
+      <width>11</width>
+      <entry>20111111111</entry>
+      <entry>00111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+      <entry>11111111111</entry>
+   </grid>
+</class>

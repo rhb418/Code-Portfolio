@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>PercolationChecker</id>
+      <game>Percolation</game>
+      <title>Checkerboard Percolation</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a simulation that percolates in a checkerboard pattern.</description>
+      <height>11</height>
+      <width>11</width>
+      <entry>10101010101</entry>
+      <entry>01010101010</entry>
+      <entry>10101010101</entry>
+      <entry>01010101010</entry>
+      <entry>10101010101</entry>
+      <entry>01010101010</entry>
+      <entry>10101010101</entry>
+      <entry>01010101010</entry>
+      <entry>10101010101</entry>
+      <entry>01010101010</entry>
+      <entry>20101010101</entry>
+   </grid>
+</class>

@@ -1,0 +1,27 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>SugarLife</id>
+    <game>Sugar</game>
+    <title>Sugar Life Demo</title>
+    <author>Cell Society Team 5</author>
+    <description>This configuration shows a Sugar simulation that shows the survivability of the agents given no sugar. They are able to survive long enough to get to the first wave of sugar.</description>
+    <height>15</height>
+    <width>15</width>
+    <entry>222222222222222</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>222222222222222</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>222222222222222</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>222222222222222</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>111111111111111</entry>
+    <entry>222222222222222</entry>
+  </grid>
+</class>

@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>SegregationSearch</id>
+      <game>Segregation</game>
+      <title>Segregation Search</title>
+      <author>Cell Society Team 5</author>
+      <description>(THIS SIMULATION SHOULD BE RUN WITH TRIANGLE GRID) This configuration shows a segregation simulation where there are few cells searching for a single neighbor.  They randomly change positions until reaching another cell of the same color.  This uses a Triangle grid, so the chance for a cell to be satisfied is greater than that in a square grid.</description>
+      <percent>0.1</percent>
+      <height>10</height>
+      <width>10</width>
+      <entry>1121111111</entry>
+      <entry>1113111112</entry>
+      <entry>1111111111</entry>
+      <entry>2111111112</entry>
+      <entry>1111111113</entry>
+      <entry>1111311111</entry>
+      <entry>3111111111</entry>
+      <entry>1112111111</entry>
+      <entry>1111111113</entry>
+      <entry>3111111111</entry>
+   </grid>
+</class>

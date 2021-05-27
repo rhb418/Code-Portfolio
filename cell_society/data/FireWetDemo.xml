@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>FireWet</id>
+      <game>Fire</game>
+      <title>Fire Wet Trees</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a Fire simulation where the trees are simulated in a wet environment (like a jungle), so probability of catching fire is very low.</description>
+      <probCatch>0.1</probCatch>
+      <height>12</height>
+      <width>12</width>
+      <entry>444444444444</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455553355554</entry>
+      <entry>455553355554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>444444444444</entry>
+   </grid>
+</class>

@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>FireDry</id>
+      <game>Fire</game>
+      <title>Fire Dry Trees</title>
+      <author>Cell Society Team 5</author>
+      <description>(THIS SIMULATION SHOULD BE RUN WITH TRIANGLE GRID) This configuration shows a Fire simulation where the trees are simulated in a dry environment (like the Sahel), so probability of catching fire is high.  Triangles have more neighbors, so this simulation should burn more quickly than that of the square grid.</description>
+      <probCatch>0.8</probCatch>
+      <height>12</height>
+      <width>12</width>
+      <entry>444444444444</entry>
+      <entry>455555555554</entry>
+      <entry>455535555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555555554</entry>
+      <entry>455555535554</entry>
+      <entry>455555555554</entry>
+      <entry>444444444444</entry>
+   </grid>
+</class>

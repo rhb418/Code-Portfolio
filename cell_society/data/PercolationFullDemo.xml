@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<class>
+   <grid>
+      <id>PercolationFull</id>
+      <game>Percolation</game>
+      <title>Full Percolation</title>
+      <author>Cell Society Team 5</author>
+      <description>This configuration shows a simulation that percolates completely to all edges.</description>
+      <height>8</height>
+      <width>8</width>
+      <entry>01100111</entry>
+      <entry>00011100</entry>
+      <entry>01101010</entry>
+      <entry>01010000</entry>
+      <entry>00100011</entry>
+      <entry>00110100</entry>
+      <entry>01010101</entry>
+      <entry>11102111</entry>
+   </grid>
+</class>

@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<class>
+  <grid>
+    <id>FireTest</id>
+    <game>Fire</game>
+    <height>10</height>
+    <width>10</width>
+    <probCatch>0.6</probCatch>
+    <entry>4444444444</entry>
+    <entry>4555555554</entry>
+    <entry>4555555554</entry>
+    <entry>4555555554</entry>
+    <entry>4555335554</entry>
+    <entry>4555555554</entry>
+    <entry>4555555554</entry>
+    <entry>4555555554</entry>
+    <entry>4555555554</entry>
+    <entry>4444444444</entry>
+  </grid>
+</class>
