@@ -1,0 +1,219 @@
+[
+  {
+    "name": "fighter",
+    "height": 50,
+    "width": 50,
+    "imageID": "fighter",
+    "onCollide": [
+      {
+        "with" : [
+          "enemyBullet"
+        ],
+        "actions" : [
+          {
+            "action" : "lose_game"
+          }
+        ]
+      },
+      {
+        "with" : [
+          "floor"
+        ],
+        "actions": [
+          {
+            "action": "blocked_bottom"
+          }
+        ],
+        "positions": [
+          "bottom"
+        ]
+      },
+      {
+        "with" : ["wall"],
+        "actions": [
+          {
+            "action": "blocked_left"
+          }
+        ],
+        "positions": [
+          "left"
+        ]
+      },
+      {
+        "with" : ["wall"],
+        "actions": [
+          {
+            "action": "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "type" : "WinComponent",
+        "winConds": [
+          {
+            "condition": "enemy",
+            "threshold" : 0,
+            "win" : true,
+            "operator" : "equal"
+          }
+
+        ]
+      },
+      {
+        "type": "PlayerComponent",
+        "DEFAULT_MAX_SPEED": 300,
+        "actionMappings" : [
+          {
+            "action" : "MoveRight",
+            "input" : "right"
+          },
+          {
+            "action" : "MoveLeft",
+            "input" : "left"
+          },
+          {
+            "action" : "SpawnObject",
+            "input" : "shoot",
+            "payload" : "bullet,25,50,0.5"
+          }
+        ]
+      },
+      {
+        "type" : "MovementComponent"
+      },
+      {
+        "type": "ScoreComponent"
+      }
+    ]
+  },
+  {
+    "name": "floor",
+    "height": 25,
+    "width": 450,
+    "imageID": "floor"
+  },
+  {
+    "name" : "wall",
+    "height" : 500,
+    "width" : 25,
+    "imageID" : "floor"
+  },
+  {
+    "name" : "camera",
+    "height" : 25,
+    "width" : 25,
+    "imageID" : "white",
+    "collidable" : false
+  },
+  {
+    "name" : "enemy",
+    "height" : 50,
+    "width" : 50,
+    "imageID" : "basice",
+    "onCollide" : [
+      {
+        "with" : [
+          "bullet"
+        ],
+        "actions": [
+          {
+            "action": "destroy_object"
+          }
+        ]
+      }
+    ],
+    "components" : [
+      {
+        "type" : "MovementComponent",
+        "gravAccel" : 0
+      },
+      {
+        "type" : "HateComponent"
+      },
+      {
+        "type" : "MovementSequenceComponent",
+        "actionSequence" : [
+          {
+            "action" : "move_left"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "spawn_object",
+            "payload" : "enemyBullet,0,0,1"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "move_right"
+          }
+        ],
+        "actionTime" : [
+          -1, -1, -1, 0, -1, -1, -1
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "bullet",
+    "height" : 10,
+    "width" : 10,
+    "imageID" : "laser",
+    "onCollide" : [
+      {
+        "with" : [
+          "enemy"
+        ],
+        "actions": [
+          {
+            "action": "destroy_object"
+          },
+          {
+            "action" : "change_score",
+            "payload" : {
+              "amount" : 50,
+              "whose" : "fighter"
+            }
+          }
+        ]
+      }
+    ],
+    "velocity" : {
+      "y" : 150
+    }
+  },
+  {
+    "name" : "enemyBullet",
+    "height" : 10,
+    "width" : 10,
+    "imageID" : "laser",
+    "onCollide" : [
+      {
+        "with" : [
+          "fighter"
+        ],
+        "actions": [
+          {
+            "action": "destroy_object"
+          }
+        ]
+      }
+    ],
+    "velocity" : {
+      "y" : -150
+    }
+  }
+]

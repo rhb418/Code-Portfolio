@@ -1,0 +1,357 @@
+[
+  {
+    "name": "fighter",
+    "height": 50,
+    "width": 50,
+    "imageID": "fighter",
+    "onCollide": [
+      {
+        "with" : [
+          "enemyBullet"
+        ],
+        "actions" : [
+          {
+            "action" : "lose_game"
+          }
+        ]
+      },
+      {
+        "with" : [
+          "floor"
+        ],
+        "actions": [
+          {
+            "action": "blocked_bottom"
+          }
+        ],
+        "positions": [
+          "bottom"
+        ]
+      },
+      {
+        "with" : ["wall"],
+        "actions": [
+          {
+            "action": "blocked_left"
+          }
+        ],
+        "positions": [
+          "left"
+        ]
+      },
+      {
+        "with" : ["wall"],
+        "actions": [
+          {
+            "action": "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "type" : "WinComponent",
+        "winConds": [
+          {
+            "condition": "enemy",
+            "threshold" : 0,
+            "win" : true,
+            "operator" : "equal"
+          }
+
+        ]
+      },
+      {
+        "type": "PlayerComponent",
+        "actionMappings" : [
+          {
+            "action" : "MoveRight",
+            "input" : "right"
+          },
+          {
+            "action" : "MoveLeft",
+            "input" : "left"
+          },
+          {
+            "action" : "SpawnObject",
+            "input" : "shoot",
+            "payload" : "bullet,25,50,0.5"
+          }
+        ]
+      },
+      {
+        "type" : "MovementComponent",
+        "maxSpeed": 300
+      },
+      {
+        "type": "ScoreComponent"
+      }
+    ]
+  },
+  {
+    "name": "floor",
+    "height": 25,
+    "width": 450,
+    "imageID": "floor"
+  },
+  {
+    "name" : "wall",
+    "height" : 500,
+    "width" : 25,
+    "imageID" : "floor"
+  },
+  {
+    "name" : "camera",
+    "height" : 25,
+    "width" : 25,
+    "imageID" : "floor",
+    "collidable" : false
+  },
+  {
+    "name" : "explosion",
+    "height" : 50,
+    "width" : 50,
+    "imageID" : "explosion",
+    "onCollide" : [
+      {
+        "with" : [
+          "explosion_trigger"
+        ],
+        "actions" : [
+          {
+            "action" : "destroy_object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "explosion_trigger",
+    "height" : 1,
+    "width" : 1,
+    "imageID" : "floor",
+    "onCollide" : [
+      {
+        "with" : [
+          "explosion"
+        ],
+        "actions" : [
+          {
+            "action" : "destroy_object"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "enemy",
+    "height" : 50,
+    "width" : 50,
+    "imageID" : "basice",
+    "onCollide" : [
+      {
+        "with" : ["wall"],
+        "actions": [
+          {
+            "action": "blocked_left"
+          }
+        ],
+        "positions": [
+          "left"
+        ]
+      },
+      {
+        "with" : ["wall"],
+        "actions": [
+          {
+            "action": "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      },
+      {
+        "with" : [
+          "bullet"
+        ],
+        "actions": [
+          {
+            "action": "destroy_object"
+          },
+          {
+            "action" : "spawn_object",
+            "payload": {
+              "which": "explosion",
+              "offsetX": "0",
+              "offsetY": "0",
+              "velocityX": "0",
+              "velocityY": "0"
+            }
+          },
+          {
+            "action" : "spawn_object",
+            "payload": {
+              "which": "explosion_trigger",
+              "offsetX": "0",
+              "offsetY": "-5",
+              "velocityX": "0",
+              "velocityY": "5"
+            }
+          }
+        ]
+      }
+    ],
+    "components" : [
+      {
+        "type" : "MovementComponent",
+        "gravAccel" : 0
+      },
+      {
+        "type" : "HateComponent"
+      },
+      {
+        "type" : "MovementSequenceComponent",
+        "actionSequence" : [
+          {
+            "action" : "move_left"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "spawn_object",
+            "payload" : "enemyBullet,0,0,1"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "move_right"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          },
+          {
+            "action" : "stand_still"
+          }
+        ],
+        "actionTime" : [
+          1, -1, -1, -1, -1,-1, -1, -1, -1, 0, -1,-1, -1, -1, -1,-1, -1, -1, 1, -1,-1, -1, -1, -1,-1, -1, -1
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "bullet",
+    "height" : 25,
+    "width" : 15,
+    "imageID" : "laser",
+    "onCollide" : [
+      {
+        "with" : [
+          "enemy"
+        ],
+        "actions": [
+          {
+            "action": "destroy_object"
+          },
+          {
+            "action" : "change_score",
+            "payload" : {
+              "amount" : 50,
+              "whose" : "fighter"
+            }
+          }
+        ]
+      }
+    ],
+    "velocity" : {
+      "y" : 150
+    }
+  },
+  {
+    "name" : "enemyBullet",
+    "height" : 25,
+    "width" : 15,
+    "imageID" : "enemylaser",
+    "onCollide" : [
+      {
+        "with" : [
+          "fighter"
+        ],
+        "actions": [
+          {
+            "action": "destroy_object"
+          }
+        ]
+      }
+    ],
+    "velocity" : {
+      "y" : -150
+    }
+  }
+]

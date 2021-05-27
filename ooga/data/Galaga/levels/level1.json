@@ -1,0 +1,86 @@
+{
+  "name": "Firsrt Level",
+  "id": "first",
+  "background": "space",
+  "focus" : "camera",
+  "height": 750,
+  "width": 500,
+  "levelNumber" : 1,
+  "objects": [
+    {
+      "name" : "camera",
+      "x" : 250,
+      "y" : 375
+    },
+    {
+      "name": "fighter",
+      "x": 100,
+      "y": 25
+    },
+    {
+      "name": "floor",
+      "x": 25,
+      "y": 0
+    },
+    {
+      "name" : "wall",
+      "x" : 0,
+      "y" : 0
+    },
+    {
+      "name" : "wall",
+      "x" : 475,
+      "y" : 0
+    },
+    {
+      "name" : "enemy",
+      "x" : 250,
+      "y" : 375
+    },
+    {
+      "name" : "enemy",
+      "x" : 300,
+      "y" : 375
+    },
+    {
+      "name" : "enemy",
+      "x" : 200,
+      "y" : 375
+    },
+    {
+      "name" : "enemy",
+      "x" : 250,
+      "y" : 325
+    },
+    {
+      "name" : "enemy",
+      "x" : 200,
+      "y" : 325
+    },
+    {
+      "name" : "enemy",
+      "x" : 300,
+      "y" : 325
+    },
+    {
+      "name" : "enemy",
+      "x" : 150,
+      "y" : 375
+    },
+    {
+      "name" : "enemy",
+      "x" : 100,
+      "y" : 375
+    },
+    {
+      "name" : "enemy",
+      "x" : 100,
+      "y" : 325
+    },
+    {
+      "name" : "enemy",
+      "x" : 150,
+      "y" : 325
+    }
+  ]
+}

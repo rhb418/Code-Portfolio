@@ -1,0 +1,9 @@
+{
+  "key_maps": {
+    "jump": "Space"
+  },
+  "stats": [
+    "Health",
+    "Points"
+  ]
+}

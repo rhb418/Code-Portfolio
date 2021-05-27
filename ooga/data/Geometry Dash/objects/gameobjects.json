@@ -1,0 +1,398 @@
+[
+  {
+    "name": "playerblock",
+    "height": 50,
+    "width": 50,
+    "imageID": "playerblock",
+    "isA": [
+      "playerblock"
+    ],
+    "onCollide": [
+      {
+        "with": [
+          "floor", "platform", "smallblock", "gridblock" , "gridblockthick", "pinkfloor", "medblock", "tallblock"
+        ],
+        "actions": [
+          {
+            "action" : "blocked_bottom"
+          }
+        ],
+        "positions": [
+          "bottom"
+        ]
+      },
+      {
+        "with": [
+          "floor", "platform", "smallblock", "gridblock" , "gridblockthick", "pinkfloor", "medblock", "tallblock"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action": "blocked_top"
+          }
+        ],
+        "positions": [
+          "top"
+        ]
+      },
+      {
+        "with": [
+          "floor", "platform", "smallblock", "gridblock" , "gridblockthick", "pinkfloor", "medblock", "tallblock"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action": "blocked_left"
+          }
+        ],
+        "positions": [
+          "left"
+        ]
+      },
+      {
+        "with": [
+          "floor", "platform", "smallblock", "gridblock" , "gridblockthick", "pinkfloor", "medblock", "tallblock"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action": "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      },
+      {
+        "with": [
+          "spike", "pinkspikes"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action" : "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      },
+      {
+        "with": [
+          "spike", "pinkspikes"
+        ],
+        "actions": [
+          {
+            "action" : "blocked_bottom"
+          },
+          {
+            "action" : "lose_game"
+          }
+        ],
+        "positions": [
+          "bottom"
+        ]
+      },
+      {
+        "with": [
+          "spike", "pinkspikes"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action": "blocked_top"
+          }
+        ],
+        "positions": [
+          "top"
+        ]
+      },
+      {
+        "with": [
+          "spike", "pinkspikes"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action": "blocked_left"
+          }
+        ],
+        "positions": [
+          "left"
+        ]
+      },
+      {
+        "with": [
+          "spike", "pinkspikes"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action" : "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      },
+      {
+        "with": [
+          "spike", "pinkspikes"
+        ],
+        "actions": [
+          {
+            "action": "lose_game"
+          },
+          {
+            "action" : "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      },
+      {
+        "with": [
+          "crown"
+        ],
+        "actions": [
+          {
+            "action" : "blocked_bottom"
+          },
+          {
+            "action" : "win_game"
+          }
+        ],
+        "positions": [
+          "bottom"
+        ]
+      },
+      {
+        "with": [
+          "crown"
+        ],
+        "actions": [
+          {
+            "action": "win_game"
+          },
+          {
+            "action": "blocked_top"
+          }
+        ],
+        "positions": [
+          "top"
+        ]
+      },
+      {
+        "with": [
+          "crown"
+        ],
+        "actions": [
+          {
+            "action": "win_game"
+          },
+          {
+            "action": "blocked_left"
+          }
+        ],
+        "positions": [
+          "left"
+        ]
+      },
+      {
+        "with": [
+          "crown"
+        ],
+        "actions": [
+          {
+            "action": "win_game"
+          },
+          {
+            "action" : "blocked_right"
+          }
+        ],
+        "positions": [
+          "right"
+        ]
+      }
+    ],
+    "components": [
+      {
+        "type" : "PlayerComponent",
+        "actionMappings" : [
+          {
+            "action" : "MoveRight",
+            "input" : "right"
+          },
+          {
+            "action" : "MoveLeft",
+            "input" : "left"
+          },
+          {
+            "action" : "Jump",
+            "input" : "jump"
+          }
+        ]
+
+      },
+
+      {
+        "type" : "MovementComponent",
+        "jumpHeight": 200,
+        "maxSpeed": 320,
+        "gravAccel": 30,
+        "horizontalStatus" : "RUNNING"
+      },
+      {
+        "type" : "ScoreComponent",
+        "score": 0
+      },
+      {
+        "type" : "WinComponent",
+        "winConds": [
+          {
+            "condition": "none"
+          }
+
+        ]
+
+      }
+
+    ]
+  },
+
+
+  {
+    "name": "floor",
+    "height": "50",
+    "width": "500",
+    "imageID": "floor",
+    "isA": [
+      "floor"
+    ]
+  },
+  {
+    "name": "pinkfloor",
+    "height": "50",
+    "width": "500",
+    "imageID": "pinkfloor",
+    "isA": [
+      "pinkfloor"
+    ]
+  },
+  {
+    "name": "smallblock",
+    "height": 50,
+    "width": 50,
+    "imageID": "smallblock",
+    "isA": [
+      "smallblock"
+    ]
+  },
+  {
+    "name": "medblock",
+    "height": 100,
+    "width": 50,
+    "imageID": "smallblock",
+    "isA": [
+      "medblock"
+    ]
+  },
+  {
+    "name": "tallblock",
+    "height": 150,
+    "width": 50,
+    "imageID": "tallblock",
+    "isA": [
+      "tallblock"
+    ]
+  },
+  {
+    "name": "spike",
+    "height": 50,
+    "width": 50,
+    "imageID": "spike",
+    "isA": [
+      "spike"
+    ]
+  },
+
+  {
+    "name": "platform",
+    "height": 20,
+    "width": 50,
+    "imageID": "platform",
+    "isA": [
+      "platform"
+    ]
+  },
+  {
+    "name" : "gridblock",
+    "height" : 50,
+    "width" : 500,
+    "imageID": "gridblock",
+    "isA": [
+      "gridblock"
+    ]
+  },
+  {
+    "name" : "gridblockthick",
+    "height" : 65,
+    "width" : 500,
+    "imageID": "gridblock",
+    "isA": [
+      "gridblockthick"
+    ]
+  },
+  {
+    "name" : "pinkspikes",
+    "height" : 50,
+    "width" : 100,
+    "imageID": "pinkspikes",
+    "isA": [
+      "pinkspikes"
+    ]
+  },
+  {
+    "name" : "shortspike",
+    "height" : 25,
+    "width" : 50,
+    "imageID": "spike",
+    "isA": [
+      "spike"
+    ]
+  },
+  {
+    "name" : "endblock",
+    "height" : 600,
+    "width" : 75,
+    "imageID": "endblock",
+    "isA": [
+      "endblock"
+    ]
+  },
+  {
+    "name" : "crown",
+    "height" : 50,
+    "width" : 75,
+    "imageID": "crown",
+    "isA": [
+      "crown"
+    ]
+  }
+]
+

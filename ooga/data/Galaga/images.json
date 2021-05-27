@@ -1,0 +1,10 @@
+{
+  "fighter": "fighter.png",
+  "space": "space.png",
+  "floor": "floor.png",
+  "basice" : "basice.png",
+  "laser" : "laser.png",
+  "enemylaser" : "enemyLaser.png",
+  "white" : "white.png",
+  "explosion" : "explosion.gif"
+}

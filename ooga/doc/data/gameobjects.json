@@ -1,0 +1,70 @@
+{
+  "objects": [
+    {
+      "type": "goomba",
+      "height": 50,
+      "width": 50,
+      "onCollide": [
+        {
+          "with": "thing",
+          "action": "change_imageID",
+          "payload": "squirrel"
+        }
+      ],
+      "collideable": true,
+      "components": [
+        {
+          "type": "PlayerController",
+          "walkSpeed": 20
+        },
+        {
+          "type": "collidble"
+        },
+        {
+          "type":"RigidBody"
+        },
+        "Damagable",
+        "Flyable"
+      ],
+      "imageID": "marioimage"
+    },
+    {
+      "type": "advance_level2",
+      "height": 50,
+      "width": 50
+    },
+    {
+      "type": "advance_level_hitbox",
+      "action": "set_image",
+      "payload": "background"
+    },
+    {
+      "type": "hitbox",
+      "height": 20,
+      "action": "advance_level",
+      "payload": ""
+    },
+    {
+      "type" : "mario",
+      "onCollide": [
+        {
+          "with" : "enemy",
+          "action" : "jump_self",
+          "position": "top"
+        },
+        {
+          "with" : "spiky goomba",
+          "action" : "dies"
+        },
+        {
+          "with" : "enemy",
+          "action": "change_image",
+          "payload": "attacked_mario"
+        }
+      ]
+    },
+    {
+      "type": "spiky goomba"
+    }
+  ]
+}

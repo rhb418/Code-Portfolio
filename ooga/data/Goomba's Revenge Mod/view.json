@@ -1,0 +1,12 @@
+{
+  "key_maps": {
+    "left": "A",
+    "right": "D",
+    "jump": "Space",
+    "attack": "J"
+  },
+  "stats": [
+    "Health",
+    "Points"
+  ]
+}

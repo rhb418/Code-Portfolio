@@ -1,0 +1,219 @@
+{
+  "name": "Sunny Level",
+  "id": "sunny_day",
+  "background": "sunny_day",
+  "height": 750,
+  "width": 750,
+  "objects": [
+    {
+      "name": "goomba",
+      "x": 50,
+      "y": 500
+    },
+    {
+      "name": "mario",
+      "x": 250,
+      "y": 150
+    },
+    {
+      "name" : "qblock",
+      "x" : 250,
+      "y" : 350
+    },
+    {
+      "name" : "qblock",
+      "x" : 500,
+      "y" : 350
+    },
+    {
+      "name" : "qblock",
+      "x" : 600,
+      "y" : 350
+    },
+    {
+      "name" : "brick",
+      "x" : 550,
+      "y" : 350
+    },
+    {
+      "name" : "brick",
+      "x" : 450,
+      "y" : 350
+    },
+    {
+      "name" : "brick",
+      "x" : 650,
+      "y" : 350
+    },
+    {
+      "name": "block",
+      "x": 0,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 0,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 50,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 100,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 150,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 200,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 250,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 300,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 350,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 400,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 450,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 500,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 500,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 550,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 600,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 650,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 700,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 750,
+      "y": 50
+    },
+    {
+      "name": "block",
+      "x": 0,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 50,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 150,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 200,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 250,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 300,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 350,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 400,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 450,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 500,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 550,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 600,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 650,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 700,
+      "y": 100
+    },
+    {
+      "name": "block",
+      "x": 750,
+      "y": 100
+    }
+  ]
+}

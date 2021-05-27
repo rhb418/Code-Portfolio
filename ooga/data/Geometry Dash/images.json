@@ -1,0 +1,15 @@
+{
+  "geoback" : "geoback.png",
+  "floor" : "floor.png",
+  "playerblock" : "playerblock.png",
+  "smallblock" : "smallblock.png",
+  "tallblock" : "smallblock.png",
+  "spike" : "spikemodified.png",
+  "platform": "platform.png",
+  "gridblock": "gridblock.png",
+  "pinkspikes": "pinkspikescropped.png",
+  "endblock" : "endblock.png",
+  "crown" : "crown.png",
+  "geobackpurple" : "geobackpurple.jpg",
+  "pinkfloor" : "pinkfloor.png"
+}

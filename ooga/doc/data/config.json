@@ -1,0 +1,12 @@
+{
+  "name" : "Mar10",
+  "levels" : [
+    "mushroom_hills",
+    "sunny_day",
+    "last_level"
+  ],
+  "objects": [
+    "gameobjects.json",
+    "other_gameobjects.json"
+  ]
+}
