@@ -1,0 +1,88 @@
+Forward 10
+fd 10
+Back 10
+bk 10
+left 10
+lt 10
+right 10
+rt 10
+setheading 10
+seth 10
+towards 0 0
+setxy 1 2
+goto 1 2
+pendown
+pd
+penup
+pu
+showturtle
+st
+hideturtle
+ht
+home
+clearscreen
+cs
+xcor
+ycor
+heading
+pendown?
+pEnDownP
+showing?
+showingP
+sum 1 2
+difference 1 2
+product 1 2
+quotient 1 2
+remainder 1 2
+minus 2
+random 100
+sin 10
+cos 10
+tan 10
+atan 10
+log 10
+pow 10
+pi
+less? 1 2
+lessp 1 2
+greater? 1 2
+equal? 1 2
+notequal? 1 2
+equalp 1 2
+notequalp 1 2
+and 1 2
+or 1 2
+not 1
+Repeat sum 0 0 [ fd 50 ]
+dotimes [ :x 5 ] [ fd 50 ]
+for [ 1 2 3 4 ] [ fd 50 ]
+if sum 0 0 [ fd 50 ]
+ifelse sum 0 0 [ fd 50 ] [ sum 50 50 ]
+if sum 0 0 [ if sum 0 0 [ fd 50 ] ]
+to poo [ :k :x :y ] [ sum sum 70 50 30 ]
+to poo [ :k :x :y ] [ repeat sum 70 50 [ fd 50 ] ]
+set :x 20
+set :x sum 0 10
+setbackground 1
+setbg 1
+setpencolor 1
+setpc 1
+setshape 1
+setsh 2
+setpalette 1 10 20 30
+setpensize 10
+setps 50
+tell [ 1 2 3 ]
+ask [ 1 2 3 ] [ fd sum 50 50 ]
+askwith [ greater? xcor 50 ] [ lt random 360 bk 100 ]
+turtles
+id
+pencolor
+pc
+shape
+sh
+( sum 10 20 30 )
+( sum 10 20 30 40 )
+( fd ( sum 10 20 30 ) )
+( fd 50 60 ( sum 10 20 30 ) )
+( setxy 10 20 300 400 0 100 )

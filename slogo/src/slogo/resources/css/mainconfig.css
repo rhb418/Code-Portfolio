@@ -1,0 +1,197 @@
+.languagechooser-gridpane {
+  -fx-alignment: top-center;
+  -fx-grid-lines-visible: false;
+  -fx-vgap: 60;
+}
+
+.languagechooser-title {
+  -fx-font-family: "Comic Sans MS";
+  -fx-font-size: 36;
+}
+
+.languagechooser-buttonbox {
+  -fx-alignment: top-center;
+  -fx-spacing: 5;
+}
+
+.languagechooser-button {
+  -fx-font-family: "Arial Black";
+  -fx-font-size: 24;
+}
+
+.clickable-image {
+  -fx-pref-width: 20;
+  -fx-pref-height: 20;
+}
+
+.subview-vbox {
+  -fx-border-color: red;
+  -fx-border-radius: 5;
+}
+
+.subview-hbox {
+  -fx-padding: 5;
+  -fx-alignment: center;
+  -fx-max-height: 30;
+}
+
+.subview-text {
+  -fx-font-size: 12;
+}
+
+.listsubview-listview {
+  -fx-max-width: 175;
+  -fx-max-height: 200;
+}
+
+.colorpalette-content {
+  -fx-padding: 5;
+}
+
+.shapepalette-content {
+
+}
+
+.uservariables-content {
+
+}
+
+.uservariables-hbox {
+  -fx-padding: 5;
+  -fx-spacing: 5;
+}
+
+.uservariables-button {
+  -fx-wrap-text: true;
+  -fx-max-width: 75;
+}
+
+.usersubview-hbox {
+  -fx-padding: 5;
+  -fx-min-width: 300;
+}
+
+.usersubview-listview {
+  -fx-max-width: 100;
+}
+
+.usercommands-content {
+
+}
+
+.usercommands-hbox {
+  -fx-padding: 5;
+  -fx-spacing: 5;
+}
+
+.usercommands-button {
+  -fx-wrap-text: true;
+  -fx-max-width: 75;
+}
+
+.menubuttonclickable-menubutton {
+
+}
+
+.buttonclickable-button {
+
+}
+
+.scenebuilder-tabpane {
+
+}
+
+.workspace-gridpane {
+  -fx-alignment: top-center;
+  -fx-grid-lines-visible: false;
+}
+
+.workspace-toolbar {
+  -fx-border-color: red;
+  -fx-border-radius: 5;
+  -fx-padding: 5;
+  -fx-spacing: 5;
+}
+
+.turtlegraphicsdisplay-vbox {
+  -fx-border-color: red;
+  -fx-border-radius: 5;
+}
+
+.turtlegraphicsdisplay-content {
+  -fx-min-width: 500;
+  -fx-min-height: 500;
+  -fx-max-width: 500;
+  -fx-max-height: 500;
+}
+
+.consolegraphicsdisplay-vbox {
+  -fx-border-color: red;
+  -fx-border-radius: 5;
+}
+
+.consolegraphicsdisplay-hbox {
+  -fx-alignment: center;
+  -fx-spacing: 5;
+  -fx-padding: 5;
+}
+
+.consolegraphicsdisplay-textarea {
+  -fx-pref-height: 100;
+  -fx-pref-width: 400;
+}
+
+.codeentrybox-textarea {
+  -fx-max-height: 100;
+  -fx-max-width: 400;
+}
+
+.codeentrybox-button {
+
+}
+
+.codeentrybox-hbox {
+  -fx-alignment: top-center;
+  -fx-padding: 5;
+  -fx-spacing: 5;
+}
+
+.codeentrybox-content {
+
+}
+
+.codeentrybox-vbox {
+  -fx-border-color: red;
+  -fx-border-radius: 5;
+}
+
+.toolbar-vbox {
+  -fx-alignment: top-center;
+  -fx-border-color: red;
+  -fx-border-radius: 10;
+  -fx-spacing: 5;
+  -fx-padding: 10;
+}
+
+.toolbar-combobox {
+  -fx-pref-width: 200;
+}
+
+.toolbar-button {
+  -fx-alignment: center;
+  -fx-wrap-text: true;
+  -fx-pref-width: 200;
+}
+
+.toolbar-descriptionhbox {
+  -fx-padding: 10;
+  -fx-min-width: 1000;
+}
+
+.toolbar-text {
+  -fx-font-size: 14;
+}
+
+.toolbar-listview {
+  -fx-max-width: 100;
+}

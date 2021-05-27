@@ -1,0 +1,57 @@
+Parser TO-DO
+Updated: 03/12/2021 ~4:14 AM
+Author: Tomas Esber
+
+Parser Description
+
+  Given a String userInput, parser will turn userInput into a String[] and do the
+  “best it can” to give Commands their respective arguments. If an argument is required but not
+  immediately available, then the parser will create an instance of the Command in question and simply
+  not feed it the argument. CommandExecutor will then rectify this omission later on.
+
+	EXAMPLE
+
+	userInput : “sum fd 50 100”
+	.
+	.
+	parser(userInput)
+	.
+	.
+  returns: MathOps command with 100 and 0 as arguments (0 since Command Constant is required),
+  Forward Command with 50 as an argument
+
+What’s Done
+
+-	Given user input, the Parser will be able to make an instance of any Command if the user input is valid
+    o	If user input is not valid, the Parser will simply not run (can add Error message if desired)
+    o	Uses Java Reflection API in CommandBuilder helper class
+-	For MathOp, BooleanOp, and Turtle Commands, the parser is able to work perfectly
+    o	Even when mixing all three types of commands in a userInput, parser will be able to parse through
+      all of them correctly
+-	Resource Bundles have most necessary information
+    o	If a new method to create a type of Command is wanted, simply add it to TokenizerInfo properties file
+- Method to parse through For, Repeat, If, and DoTimes SuperCommands
+    o These Control Structures seem to execute perfectly with Commands in their body
+    o CANNOT take Commands as arguments (Simplification we will need to address later on)
+
+What’s Missing
+
+-	Need to create method to parse through these SuperCommands: IfElse, To
+    o These two methods are one of the only BIG things left from the Parser
+      * Other than this, what's really left of the parser is just making methods
+      better by looking for bugs, making design cleaner, making implementation smoother
+      (adding more helper classes, etc)
+    o	Issue: SuperCommands have varying syntax (unlike simpler MathOps, BoolOps, Turtle Commands)
+    o	It may be that one method can handle a few similar SuperCommands, but ToCommand might
+      need its very own method
+
+Other Less Important Improvements Needed
+
+-	Need to update buildMathTurtleBoolOps() method to function more adequately with SuperCommands
+    o	Will likely be an if-statement that will stop execution of method once a SuperCommand
+      is reached since you can’t obtain arguments from a SuperCommand
+    o This is a quick fix (I Think), just need to add the scenario in which MathOps, for example,
+      are called before a SuperCommand.
+-	Need to think of a way that will change any foreign language command into English early on in the
+  parsing process since all ClassInfo ResourceBundles assume English properties (see FIXME, Parser line ~28)
+-	Minor detail: See FIXME at line ~251 in Parser class
